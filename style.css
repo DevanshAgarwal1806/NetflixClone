@@ -293,12 +293,12 @@ footer> :first-child{
     margin-top:10px;
     margin-bottom:200px;
 }
-@media  screen and (max-device-width:1550px) {
+@media (max-device-width:1000px) {
     .grid_main{
         grid-template-columns: 1fr 1fr;
     }
 }
-@media  screen and (max-device-width:1550px) {
+@media (max-device-width:1000px) {
     .first{
         flex-wrap:wrap;
     }
@@ -306,7 +306,7 @@ footer> :first-child{
         flex-wrap:wrap;
     }
 }
-@media screen and (max-device-width:1550px){
+@media (max-device-width:1000px){
     .main_content> :first-child{
         font-weight:900;
         font-size:32px;
@@ -347,6 +347,13 @@ footer> :first-child{
         height:30px;
         width:100px;
         font-size:10px;
+    }
+     
+    .first_content> :nth-child(1){
+        text-align:center;
+    }
+    .first_content> :nth-child(2){
+        text-align:center;
     }
 
 
